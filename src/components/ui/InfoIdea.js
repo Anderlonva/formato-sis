@@ -1,7 +1,12 @@
 import React from 'react'
 import { CheckboxAporte } from './CheckboxAporte'
+import { Descripcion } from './Descripcion'
 
 export const InfoIdea = () => {
+
+    let titulo = 'Descripción del problema o situación'
+    let idDes = 'descripcionProblema'
+
     return (
         <>
             <div className='row mt-3'>
@@ -34,12 +39,7 @@ export const InfoIdea = () => {
                 </div>
             </div>
 
-            <div className='row mt-3'>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label mx-2">Descripcion del problema o situación</label>
-                    <textarea class="form-control" id="descripcionProblema" rows="3"></textarea>
-                </div>
-            </div>
+            <Descripcion titulo={titulo} idDescripcion={idDes}/>
 
         </>
     )
