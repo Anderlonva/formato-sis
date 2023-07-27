@@ -5,6 +5,8 @@ import { InfoIdea } from './InfoIdea'
 import { DropzoneImg } from './DropzoneImg'
 import { Descripcion } from './Descripcion'
 import { Calificacion } from './Calificacion'
+import { Firma } from './Firma'
+import { BotonGuardar } from './BotonGuardar'
 
 export const Main = () => {
 
@@ -14,6 +16,7 @@ export const Main = () => {
     let idDes = 'descripcionSolucion'
 
     return (
+        <>
         <div className='container border border-3 mb-3'>
             <HeaderDoc/>
             <InfoOperario/>
@@ -22,7 +25,11 @@ export const Main = () => {
             <Descripcion titulo={descripcion} idDescripcion={idDes}/>
             <DropzoneImg titulo={despues}/>
             <Calificacion/>
-
+            <Firma/>
         </div>
+        <div >
+        <BotonGuardar/>
+        </div>
+        </>
     )
 }

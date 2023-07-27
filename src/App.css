@@ -22,3 +22,19 @@
 .hoverP:hover {
   cursor: pointer;
 }
+
+.jurado {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-gris {
+  background-color: grey;
+  border-radius: 10px;
+}
+
+.mt-10 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
