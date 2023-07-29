@@ -4,29 +4,29 @@ export const Calificacion = () => {
     return (
         <>
             <div className='row mb-3 mx-2 '>
-                <div className='col-3'>
+                <div className='col-lg-3 '>
                     <div className='row mt-4'>
-                        <div className='col-3 text-center'>
+                        <div className='col-lg-3 text-center'>
                             <label className="form-label mt-2">10.000</label>
                         </div>
 
-                        <div className='col-6 '>
+                        <div className='col-lg-6 '>
                             <input type="text" readOnly class="form-control mt-1" id='area' />
                         </div>
                     </div>
-                    <div className='row mt-4'>
-                        <div className='col-3 text-center'>
+                    <div className='row mt-4 mb-2'>
+                        <div className='col-lg-3 text-center'>
                             <label className="form-label mt-2">Jurado</label>
                         </div>
 
-                        <div className='col-6 '>
+                        <div className='col-lg-6 '>
                             <input type="text" readOnly class="form-control mt-1" id='area' />
                         </div>
                     </div>
                 </div>
 
 
-                <div className='col-8 bg-gris'>
+                <div className='col-lg-8 bg-gris'>
 
                     <div className='row mt-2'>
                         <h6><strong>¡SOLO PARA SIS DE JURADO!</strong></h6>

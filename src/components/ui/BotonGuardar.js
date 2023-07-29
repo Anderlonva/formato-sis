@@ -39,7 +39,7 @@ export const BotonGuardar = ({ resolution }) => {
 }
 
 /*
-    falta poner la funcion del boton que muestre ventana para guardar en pdf y que siempre salga con la misma resolucion sea el pc que sea 
+    resolucion sea el pc que sea 
 
     diseño: retrato
     tamaño papel: A3

@@ -4,10 +4,10 @@ export const CheckboxAporte = () => {
   return (
     <>
         <div className='row mt-3'>
-                <div className='col-2'>
+                <div className='col-lg-2 col-md-12'>
                     <label className="col-form-label mt-2">Aporte de la idea</label>
                 </div>
-                <div className='col-2 mt-3'>
+                <div className='col-lg-2 col-md-4 mt-3'>
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="productividad"/>
                             <label class="form-check-label" for="flexCheckDefault">
@@ -16,7 +16,7 @@ export const CheckboxAporte = () => {
                     </div>
                 </div>
 
-                <div className='col-2 mt-3'>
+                <div className='col-lg-2 col-md-4 mt-3'>
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="condicionesDeTrabajo"/>
                             <label class="form-check-label" for="flexCheckDefault">
@@ -25,7 +25,7 @@ export const CheckboxAporte = () => {
                     </div>
                 </div>
 
-                <div className='col-2 mt-3'>
+                <div className='col-lg-2 col-md-4 mt-3'>
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="MedioAmbiente"/>
                             <label class="form-check-label" for="flexCheckDefault">
@@ -34,7 +34,7 @@ export const CheckboxAporte = () => {
                     </div>
                 </div>
 
-                <div className='col-1 mt-3'>
+                <div className='col-lg-1 col-md-4 mt-3'>
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="calidad"/>
                             <label class="form-check-label" for="flexCheckDefault">
@@ -43,7 +43,7 @@ export const CheckboxAporte = () => {
                     </div>
                 </div>
 
-                <div className='col-1 mt-3'>
+                <div className='col-lg-1 col-md-4 mt-3'>
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="costos"/>
                             <label class="form-check-label" for="flexCheckDefault">
@@ -52,7 +52,7 @@ export const CheckboxAporte = () => {
                     </div>
                 </div>
 
-                <div className='col-1 mt-3'>
+                <div className='col-lg-1 col-md-4 mt-3'>
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="otros"/>
                             <label class="form-check-label" for="flexCheckDefault">
