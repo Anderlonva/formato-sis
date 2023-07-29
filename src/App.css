@@ -10,6 +10,10 @@
   color: rgb(231, 231, 24);
 }
 
+.title-doc {
+  font-size: 30px;
+}
+
 .containerDrop {
   width: 100%;
   height: 50px;
@@ -17,6 +21,12 @@
 
 .imgDropzone{
   width: 150px;
+}
+
+.botonEliminar {
+  width: 10px;
+  height: 10px;
+  text-align: center;
 }
 
 .hoverP:hover {

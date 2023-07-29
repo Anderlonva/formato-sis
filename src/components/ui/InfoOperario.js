@@ -11,7 +11,7 @@ export const InfoOperario = () => {
                     <input type="text" class="form-control mt-1" id='nombre' />
                 </div>
                 <div className='col-1 text-center'>
-                    <label className="col-form-label mt-2">Cedula</label>
+                    <label className="col-form-label mt-2">Cédula</label>
                 </div>
                 <div className='col-3'>
                     <input type="text" class="form-control mt-1" id='cedula' />
@@ -21,7 +21,7 @@ export const InfoOperario = () => {
 
             <div className='row mt-3'>
                 <div className='col-1 text-center'>
-                    <label className="col-form-label mt-2">Area</label>
+                    <label className="col-form-label mt-2">Área</label>
                 </div>
                 <div className='col-3'>
                     <input type="text" class="form-control mt-1" id='area' />
@@ -42,12 +42,11 @@ export const InfoOperario = () => {
 
             <div className='row mt-3'>
 
-
-                <div className='col-1 text-center'>
-                    <label className="col-form-label mt-2">UET</label>
+            <div className='col-1 text-center'>
+                    <label className="col-form-label mt-2">JT</label>
                 </div>
                 <div className='col-3'>
-                    <input type="text" class="form-control mt-1" id='uet' />
+                    <input type="text" class="form-control mt-1" id='jt' />
                 </div>
 
                 <div className='col-1 text-center'>
@@ -56,6 +55,14 @@ export const InfoOperario = () => {
                 <div className='col-3'>
                     <input type="text" class="form-control mt-1" id='ju' />
                 </div>
+
+                <div className='col-1 text-center'>
+                    <label className="col-form-label mt-2">UET</label>
+                </div>
+                <div className='col-3'>
+                    <input type="text" class="form-control mt-1" id='uet' />
+                </div>
+
 
             </div>
         </>

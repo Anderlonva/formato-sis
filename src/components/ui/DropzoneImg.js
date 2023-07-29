@@ -37,9 +37,9 @@ export const DropzoneImg = ({ titulo }) => {
           <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }} className=''>
             {imageFiles.map((file, index) => (
               <div key={index} style={{ margin: '10px', textAlign: 'center' }}>
-                <img src={URL.createObjectURL(file)} alt={`Imagen ${index}`} style={{ width: '200px', objectFit: 'cover' }} />
+                <img src={URL.createObjectURL(file)} alt={`Imagen ${index}`} style={{ width: '180px', objectFit: 'cover' }} className='imgDropzone'/>
                 <br />
-                <button onClick={() => removeImage(index)}>Eliminar</button>
+                <button onClick={() => removeImage(index)} className='btn btn-danger botonEliminar mb-0'>x</button>
               </div>
             ))}
           </div>

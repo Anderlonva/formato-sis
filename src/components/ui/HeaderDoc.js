@@ -6,7 +6,7 @@ export const HeaderDoc = () => {
         <>
             <div className='row mt-3'>
                 <div className='col-4'>
-                    <h1><span className='title-groupe'>GROUPE</span> RENAULT</h1>
+                    <h1 className='title-doc'><span className='title-groupe'>GROUPE</span> RENAULT</h1>
                 </div>
                 <div className='col-4 text-center'>
                     <img className='' src={logoSis}></img>
@@ -15,7 +15,7 @@ export const HeaderDoc = () => {
                     <label className="col-form-label mt-2">No. Sugerencia</label>
                 </div>
                 <div className='col-2'>
-                    <input type="text" class="form-control mt-1" />
+                    <input type="text" class="form-control mt-1" disabled/>
                 </div>
             </div>
             <div className='row'>
