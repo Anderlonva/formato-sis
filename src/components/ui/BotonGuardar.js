@@ -1,8 +1,11 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { jsPDF } from 'jspdf';
 import html2pdf from 'html2pdf.js';
 
 export const BotonGuardar = ({ resolution }) => {
+
+  
+
 
   const saveAsPDF = () => {
     // Obtener el contenido de la página actual (root element)
@@ -10,15 +13,23 @@ export const BotonGuardar = ({ resolution }) => {
 
     // Opciones para el PDF
     const options = {
-      margin: 10,
+      margin: 5,
       filename: 'sis_web.pdf',
       image: { type: 'png', quality: 1 },
-      html2canvas: { scale: 0.95 },
-      jsPDF: { unit: 'pt', format: 'a2', orientation: 'portrait' },
+      //html2canvas: { scale: 0.99 },
     };
 
-    // Crear el PDF a partir del contenido HTML
+    if (window.innerWidth <= 768) {
+      //options.html2canvas = { scale: 0.60 }
+      //options.jsPDF = { unit: 'pt', format: 'a1', orientation: 'portrait' }
+      alert('solo se puede en pc')
+    } else {
+      options.html2canvas = { scale: 0.99 }
+      options.jsPDF = { unit: 'pt', format: 'a2', orientation: 'portrait' }
+    }
+
     html2pdf().set(options).from(rootElement).save();
+
   };
 
 
