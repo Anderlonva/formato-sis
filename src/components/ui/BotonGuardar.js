@@ -26,9 +26,11 @@ export const BotonGuardar = ({ resolution }) => {
     } else {
       options.html2canvas = { scale: 0.99 }
       options.jsPDF = { unit: 'pt', format: 'a2', orientation: 'portrait' }
+
+      html2pdf().set(options).from(rootElement).save();
     }
 
-    html2pdf().set(options).from(rootElement).save();
+    
 
   };
 
