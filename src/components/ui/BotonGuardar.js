@@ -19,10 +19,10 @@ export const BotonGuardar = ({ resolution }) => {
       //html2canvas: { scale: 0.99 },
     };
 
-    if (window.innerWidth <= 768) {
+    if (window.innerWidth <= 1000) {
       //options.html2canvas = { scale: 0.60 }
       //options.jsPDF = { unit: 'pt', format: 'a1', orientation: 'portrait' }
-      alert('solo se puede en pc')
+      alert('Por el momento solo se puede descargar desde un computador en pantalla completa, estamos trabajando para mejorar el formato.')
     } else {
       options.html2canvas = { scale: 0.99 }
       options.jsPDF = { unit: 'pt', format: 'a2', orientation: 'portrait' }
