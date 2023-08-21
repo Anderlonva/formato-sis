@@ -11,7 +11,7 @@ export const Calificacion = () => {
                         </div>
 
                         <div className='col-lg-6 '>
-                            <input type="text" readOnly class="form-control mt-1" id='area' />
+                            <input type="text" readOnly className="form-control mt-1" id='area' />
                         </div>
                     </div>
                     <div className='row mt-4 mb-2'>
@@ -20,7 +20,7 @@ export const Calificacion = () => {
                         </div>
 
                         <div className='col-lg-6 '>
-                            <input type="text" readOnly class="form-control mt-1" id='area' />
+                            <input type="text" readOnly className="form-control mt-1" id='area' />
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ export const Calificacion = () => {
                                     <span className='jurado'><strong>Creatividad</strong></span>
                                 </div>
                                 <div className='col-lg-2'>
-                                    <input type="text" readOnly class="inputJurado" id='creatividad' />
+                                    <input type="text" readOnly className="inputJurado" id='creatividad' />
                                 </div>
                             </div>
                             <div className='row mt-1'>
@@ -48,7 +48,7 @@ export const Calificacion = () => {
                                     <span className='jurado'><strong>Part. en la implementación</strong></span>
                                 </div>
                                 <div className='col-1'>
-                                    <input type="text" readOnly class="inputJurado" id='partImplementacion' />
+                                    <input type="text" readOnly className="inputJurado" id='partImplementacion' />
                                 </div>
                             </div>
                             <div className='row mt-1'>
@@ -56,7 +56,7 @@ export const Calificacion = () => {
                                     <span className='jurado'><strong>Relación con el cargo</strong></span>
                                 </div>
                                 <div className='col-lg-1'>
-                                    <input type="text" readOnly class="inputJurado" id='relacionCargo' />
+                                    <input type="text" readOnly className="inputJurado" id='relacionCargo' />
                                 </div>
                             </div>
 
@@ -65,7 +65,7 @@ export const Calificacion = () => {
                                     <span className='jurado'><strong>Aportes</strong></span>
                                 </div>
                                 <div className='col-lg-1'>
-                                    <input type="text" readOnly class="inputJurado" id='aportes' />
+                                    <input type="text" readOnly className="inputJurado" id='aportes' />
                                 </div>
                             </div>
                             <div className='row mt-1'>
@@ -73,7 +73,7 @@ export const Calificacion = () => {
                                     <span className='jurado'><strong>Transversabilidad</strong></span>
                                 </div>
                                 <div className='col-lg-1'>
-                                    <input type="text" readOnly class="inputJurado" id='transversabilidad' />
+                                    <input type="text" readOnly className="inputJurado" id='transversabilidad' />
                                 </div>
                             </div>
                             <div className='row mt-1'>
@@ -81,7 +81,7 @@ export const Calificacion = () => {
                                     <span className='jurado'><strong>Total</strong></span>
                                 </div>
                                 <div className='col-lg-1'>
-                                    <input type="text" readOnly class="inputJurado" id='total' />
+                                    <input type="text" readOnly className="inputJurado" id='total' />
                                 </div>
                             </div>
                         </div>
@@ -92,7 +92,7 @@ export const Calificacion = () => {
                                     <span className='jurado'><strong>Calificación Jurado</strong></span>
                                 </div>
                                 <div className='col-lg-1'>
-                                    <input type="text" readOnly class="inputJurado" id='calificacionJurado' />
+                                    <input type="text" readOnly className="inputJurado" id='calificacionJurado' />
                                 </div>
                             </div>
                             <div className='row mt-4'>
@@ -124,6 +124,6 @@ export const Calificacion = () => {
 
 /*
     
-<input type="text" readOnly class="inputJurado2" id='firmaJurado' />
-<input type="text" readOnly class="inputJurado2" id='nombreJurado' />
+<input type="text" readOnly className="inputJurado2" id='firmaJurado' />
+<input type="text" readOnly className="inputJurado2" id='nombreJurado' />
 */

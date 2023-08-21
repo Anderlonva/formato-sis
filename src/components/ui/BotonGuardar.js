@@ -44,7 +44,7 @@ export const BotonGuardar = ({ resolution }) => {
     <>
       <div className='row text-center mb-2'>
         <div className='col'>
-          <button type="button" class="btn btn-dark" onClick={saveAsPDF}>Guardar</button>
+          <button type="button" className="btn btn-dark" onClick={saveAsPDF}>Guardar</button>
         </div>
       </div>
     </>

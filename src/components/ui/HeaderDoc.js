@@ -15,7 +15,7 @@ export const HeaderDoc = () => {
                     <label className="col-form-label mt-2">No. Sugerencia</label>
                 </div>
                 <div className='col-lg-2 col-md-2 col-sm-6 '>
-                    <input type="text" class="form-control mt-1" disabled/>
+                    <input type="text" className="form-control mt-1" disabled/>
                 </div>
             </div>
             <div className='row'>
@@ -29,7 +29,7 @@ export const HeaderDoc = () => {
                     <label className="col-form-label mt-1">Fecha</label>
                 </div>
                 <div className='col-lg-2 col-md-4'>
-                    <input type="text" class="form-control mt-1" placeholder='DIA - MES - AÑO'/>
+                    <input type="text" className="form-control mt-1" placeholder='DIA - MES - AÑO'/>
                 </div>
             </div>
         </>
