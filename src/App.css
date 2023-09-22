@@ -6,8 +6,12 @@
   color: white;
 }
 
+.text-nav:hover{
+  color: #efdf30
+}
+
 .title-groupe{
-  color: rgb(231, 231, 24);
+  color: #efdf30
 }
 
 .title-doc {
